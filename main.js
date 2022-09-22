@@ -23,7 +23,7 @@ function myTimeout(){
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
-    btn.addEventListener('mouseover', (e) => {
+    btn.addEventListener('click', (e) => {
         e.preventDefault();
         name = inputName.value;
         if(name === ''){
