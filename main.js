@@ -21,8 +21,7 @@ function myTimeout(){
     document.querySelector('#my-form').style.background = null;
 }
 
-btn.addEventListener('click', (e) => {
-    e.preventDefault();
+
     btn.addEventListener('click', (e) => {
         e.preventDefault();
         name = inputName.value;
@@ -42,6 +41,6 @@ btn.addEventListener('click', (e) => {
            
         }
     });
-});
+
 
 
